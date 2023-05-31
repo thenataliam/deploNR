@@ -18,3 +18,4 @@ app.post('/usuario', (req, res)=> {
 
     res.send({message:"El usuario se ha recibido"});
 })
+module.exports = app;
